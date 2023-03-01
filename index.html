@@ -1,0 +1,62 @@
+<html>
+    <head>
+
+    </head>
+    <body style="padding: 20px;">
+        <h1>Index</h1>
+        <ul>
+            <li><a href="models/">Models</a> - Contains the <i>pickled</i> models</li>
+            <br>
+            <li><a href="src/">Source Code (src)</a> - Contains all the dataset files and code to run the experiments</li>
+            <br>
+                <ul>
+                    <li><a href="src/data/">Data</a></li>
+                    <br>
+                    <ul>
+                        <li><a href="src/data/datasets/">Datasets</a> - Datasets are in the format language1-language2 (English en, French fr, Portuguese pr, Turkish tr) </li>
+                        <br>
+                        <li><a href="src/data/converter-tsv-to-csv.py">TSV to CSV converter</a></li>
+                        <br>
+                        <li><a href="src/data/preprocess_data.py">File for preprocessing</a></li>
+                    </ul>
+                    <br>
+                    <li><a href="src/models/">Model Training & Testing</a></li>
+                    <br>
+                    <ul>
+                        <li><a href="src/models/train_model.py">File for Model Training</a> - Run this file to train the model (the path can be changed to target different data)</li>
+                        <br>
+                        <li><a href="src/models/evaluate_model.py">File for Model Testing & Evaluation</a> - Run this file to test the previously trained model (the path can be changed to target different data)</li>
+                        <br>
+                        <li><a href="src/models/predict_model.py">File to predict input text</a> - Contains function used in prediction</li>
+                    </ul>
+                    <br>
+                    <li><a href="src/t-tests/">T-tests</a> - For these files the path can be changed to target different datasets</li>
+                    <br>
+                    <ul>
+                        <li><a href="src/t-tests/n-gram-t-test.py">N-gram range t-test</a></li>
+                        <br>
+                        <li><a href="src/t-tests/stop-words-ttest.py">Stop words t-test</a></li>
+                        <br>
+                        <li><a href="src/t-tests/ttest-training-en-or-en-fr.py">T-test for <i>English</i> trained and <i>English & French</i> trained models</a></li>
+                        <br>
+                        <li><a href="src/t-tests/models-t-test.py">All purpose t-test</a></li>
+                    </ul>
+                    <br>
+                    <p>The code from the files below have been added in the files where they are used, they are listed to be examined in isolation</p>
+                    <br>
+                    <li><a href="src/features/">Features</a></li>
+                    <br>
+                    <ul>
+                        <li><a href="src/features/build_features.py">Build features</a> </li>
+                    </ul>
+                    <br>
+                    <li><a href="src/visualization/">Visualization</a></li>
+                    <br>
+                    <ul>
+                        <li><a href="src/visualization/visualize.py">Visualize</a> </li>
+                    </ul>
+                </ul>
+
+        </ul>
+    </body>
+</html>
